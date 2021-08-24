@@ -12,6 +12,7 @@ class UpdateCatForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      _id: this.props.cat._id,
       name: this.props.cat.name,
       color: this.props.cat.color,
     };
